@@ -1,0 +1,195 @@
+html,body,div,form,table,p,a,h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+
+.frame{
+	width: 100%;
+	height: 100%;
+	float: left;
+	height: 140px;
+	border-bottom: 3px solid black;
+}
+.top{
+	margin: auto;
+	width: 1190px;
+	height: 140px;
+}
+.top>p{
+	float: left;
+	line-height: 140px;
+	font-weight: bold;
+	font-size: 20px;
+} 
+.tu1 img{
+	width: 204px;
+	margin-top: 27px;
+	float: left;
+	height: 82px;
+}
+.banner{
+	width: 100%;
+	float: left;
+	min-width: 1190px;
+	height: 560px;
+	background: #FEF9F6;
+}
+.banner_box{
+	width: 1190px;
+	height: 560px;
+	margin: auto;
+}
+._left_tu{
+	width: 560px;
+	height: 500px;
+	float: left;
+	background: url(../img/banner_tu.jpg) no-repeat;
+}
+.banner_right{
+	float: left;
+	width: 421px;
+	border: 1px solid #E5E5E5;
+	height:492px ;
+}
+.banner_up_top{
+	width: 421px;
+	border-bottom: 2px solid #FD632C;
+	float: left;
+	height: 59px;
+}
+.banner_up_top>p{
+	text-align: center;
+     line-height: 59px;
+     font-size: 20px;
+     font-weight: bold;
+     color: #FD632C;
+     }
+.banner_up_midd{
+    margin-top: 20px;
+    float: left;
+    margin-left: 20px;
+	width: 421px;
+	height: 50px;
+}
+.banner_up_midd>div{
+	background-position: 0 0;
+    width: 24px;
+    height: 18px;
+    display: block;
+    background: url(../img/login_icons.png) no-repeat;
+    float: left;
+    overflow: hidden;
+    margin-right: 7px;
+}
+.banner_up_midd>p{
+	color: #A2A1A1;
+}
+.inp{
+	margin-top: -14px;
+	margin-left: 15px;
+	float: left;
+}
+.up_inp{
+	width: 375px;
+    line-height: 50px;
+    margin: 0;
+    margin-top: 15px;
+    position: relative;
+	border: 1px solid #A2A1A1;
+}
+.user{
+	position: absolute;
+    width: 22px;
+    height: 25px;
+    background: url(../img/login_icons.png) no-repeat;
+    background-position: 0 -32px;
+    top: 13px;
+    left: 29px;
+    display: block;
+    float: left;
+
+}
+.down_inp{
+	float: left;
+	width: 375px;
+    line-height: 50px;
+    margin: 0;
+    margin-top: 66px;
+    position: relative;
+	border: 1px solid #A2A1A1;
+}
+.password{
+	position: absolute;
+    width: 22px;
+    height: 30px;
+    background-position: 0 -68px;
+    top: 16px;
+    left: 29px;
+    display: block;
+    background: url(../img/login_icons.png) no-repeat;
+
+}
+.ches{
+	float: left;
+	margin-top: 20px;
+	width: 376px;
+	height: 48px;
+}
+a{
+	display: inline-block;
+}
+.ctxt{
+	float: right;
+}
+.ctxt a{
+	text-decoration: none;
+	color: #1A1A1A;
+}
+.ctxt a:hover{
+	color: #FD632C;
+}
+.btns{
+	margin-top: 30px;
+	width: 365px;
+	height: 60px;
+	float: left;
+}
+.banner_down{
+	line-height: 22px;
+    height: auto;
+    width: 345px;
+    float: left;
+    color: #242323;
+    font-size: 14px;
+    margin: 50px 15px;
+
+}
+.banner_down span.right b {
+    background-position: -35px 0;
+    width: 15px;
+    height: 20px;
+   float: left;
+   margin-left: 40px;
+   
+   /* margin-right: 10px;*/
+    z-index: 11111111;
+}
+.banner_down label{
+	color: #1a1a1a;
+	float: left;
+}
+.banner_down a {
+    color: #1a1a1a;
+    text-decoration: none;
+    outline: 0;
+    float: left;
+    cursor: pointer;
+        margin-left: 8px;
+}
+.login_icons {
+    background: url(../img/login_icons.png) no-repeat;
+}

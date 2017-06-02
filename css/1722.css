@@ -1,0 +1,77 @@
+html,
+body,
+ul,
+li,
+table,
+form,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+.bg{
+	width: 100%;
+	height: 8012px;
+	float: left;
+	background: #F5D0DB;
+	min-width: 1190px;
+}
+.auto{
+	width: 100%;
+	min-width: 1190px;
+	float: left;
+	height: 420px;
+}
+.can_tu{
+	background-size: cover;
+	height: 420px;
+	margin: auto;
+	width: 1190px;
+}
+.cannel_ul{
+	width: 1190px;
+	margin: auto;
+	height: 7708px;
+}
+.cannel_ul li{
+	width: 280px;
+	height: 370px;
+	float: left;
+	background: white;
+	position: relative;
+    margin-right:15px;
+    margin-bottom: 7px;
+    margin-top: 1px;
+	list-style-type: none;
+}
+.cannel_ul li p:nth-child(1){
+	position: absolute;
+	bottom: 47px;
+	left:9px;
+	color: #646464;
+	font-size: 20px;
+}
+.cannel_ul li p span{
+	font-weight: bold;
+}
+.cannel_ul li p:nth-child(2){
+	position: absolute;
+	bottom: 11px;
+	left:9px;
+	font-size: 20px;
+	font-family: "微软雅黑";
+	color: #FF0000;
+}
+.cannel_ul li img{
+	width: 256px;
+	background-size: cover;
+}
